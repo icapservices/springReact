@@ -1,0 +1,18 @@
+#start project git
+git init
+git aa .
+git commit -m 'first commit'
+
+git push -u origin main
+
+#or branch dev 
+git status
+# to see files to be commited
+git add . 
+git commit -m 'comit next files'
+git push -u origin dev
+
+#if work several people 
+git pull -u origin dev
+
+git rebase rebase 
